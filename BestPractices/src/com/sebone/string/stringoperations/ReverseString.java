@@ -7,12 +7,12 @@ import java.util.Scanner;
 
 
 /*
- * class name: ReverseTheString 
+ * class name: ReverseString 
  * objective: This class is created for reversing the given string like "java" to "avaj";
  * author: Bhanu Singh
  * Date: 17/03/2022
  */
-public class ReverseTheString {
+public class ReverseString {
 	/*
 	 * function name: main 
 	 * objective: This is the main function which is public and static, this function is first function invoked when the program runs; 
@@ -26,7 +26,7 @@ public class ReverseTheString {
 		Scanner inputObject = new Scanner(System.in);
 		
 		// Creating the object of ReverseTheString class for calling the member functions of class ReverseTheString
-		ReverseTheString reverseTheString = new ReverseTheString();
+		ReverseString reverseString = new ReverseString();
 		
 		System.out.println("Enter the String");
 		
@@ -34,7 +34,7 @@ public class ReverseTheString {
 		String stringForReverse = inputObject.nextLine();
 		
 		// Invoking the getReverseString function, and returned string of getReverseString got printed by System.out.println();
-		System.out.println(reverseTheString.getReverseString(stringForReverse));
+		System.out.println(reverseString.getReverseString(stringForReverse));
 		inputObject.close();
 	}
 	
