@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.sebone.numbers.integeroprationsbyformulas","c":"SumOfNNumbers","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.sebone.numbers.integeroprationsbyformulas","c":"SumOfNNumbers","l":"SumOfNNumbers()","u":"%3Cinit%3E()"}];updateSearchResults();
