@@ -45,11 +45,12 @@ public class FibonacciSeries {
 	 * author: Bhanu Singh
 	 * Date: 17/03/2022
 	 */
-	int[] getFibonacciSeriesUptoN(int number){
+	public int[] getFibonacciSeriesUptoN(int number){
+		if(number <= 0){
+			int arr[] = new int[0];
+			return arr;
+		}
 		int fibonacciSeriesList [] = new int[number];
-	
-		if(number == 0)
-			return fibonacciSeriesList;
 		
 		fibonacciSeriesList[0] = 0;
 		

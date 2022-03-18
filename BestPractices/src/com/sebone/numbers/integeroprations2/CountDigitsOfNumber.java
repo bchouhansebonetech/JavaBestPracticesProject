@@ -5,7 +5,7 @@ package com.sebone.numbers.integeroprations2;
  * importing java.util.Scanner for taking inputs
  */
 import java.util.Scanner;
-
+import java.lang.Math;
 
 /*
  * class name: CountDigitsOfNumber 
@@ -48,7 +48,11 @@ public class CountDigitsOfNumber {
 	 * author: Bhanu Singh
 	 * Date: 17/03/2022
 	 */
-	int getNumberOfDigitsOfGivenNumber(int number) {
+	public int getNumberOfDigitsOfGivenNumber(int number) {
+		if(number == 0)
+			return 1;
+		
+		number = Math.abs(number);
 		int count = 0;
 		while(number > 0){
 			number = number / 10;

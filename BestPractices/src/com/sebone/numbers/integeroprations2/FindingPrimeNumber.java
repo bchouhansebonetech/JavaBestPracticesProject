@@ -51,7 +51,9 @@ public class FindingPrimeNumber {
 	 * author: Bhanu Singh
 	 * Date: 17/03/2022
 	 */
-	boolean isPrime(int number){
+	public boolean isPrime(int number){
+		if(number < 0)
+			return false;
 		int count = 0;
 		boolean prime = false;
 		for(int iterator = 1; iterator <= number/2; iterator++){

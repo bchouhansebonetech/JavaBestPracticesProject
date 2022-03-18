@@ -46,8 +46,10 @@ public class FactorialOfNumber {
 	 * author: Bhanu Singh
 	 * Date: 17/03/2022
 	 */
-	int getFactorialOfNumber(int number) {
+	public int getFactorialOfNumber(int number) {
 		
+		if(number < 0)
+			return 0;
 		if(number == 0)
 			return 1;
 		

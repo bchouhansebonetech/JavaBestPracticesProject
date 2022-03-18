@@ -44,7 +44,9 @@ public class SumOfNNumbers {
 	 * author: Bhanu Singh
 	 * Date: 17/03/2022
 	 */
-	int getSumUpto1toN(int number){
+	public int getSumUpto1toN(int number){
+		if(number < 0)
+			return 0;
 		return 	(number*(number+1)/2);
 	}
 
